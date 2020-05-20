@@ -122,7 +122,7 @@ Jeżeli uznamy, że któryś z branchy jest nam już niepotrzebny a historia jeg
 Jeżeli jednak nasza decyzja o usunięciu została podjęta, możemy tego dokonać przy pomocy następujących czynności:
 
 **Zadanie 7**
-1. Usuń lokalnie branch *npg_test* za pomocą polecenia `git branch -r nazwa_brancha`
+1. Usuń lokalnie branch *npg_test* za pomocą polecenia `git branch -d nazwa_brancha`
 2. Sprawdź czy nadal znajduje się na liście branchy lokalnych.
 3. Sprawdź czy nadal znajduje się na liście branchy zdalnych.
 4. Usuń zdalny branch przy pomocy polecenia `git push url_repozytorium nazwa_brancha`
