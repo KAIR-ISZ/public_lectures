@@ -125,7 +125,7 @@ Jeżeli jednak nasza decyzja o usunięciu została podjęta, możemy tego dokona
 1. Usuń lokalnie branch *npg_test* za pomocą polecenia `git branch -r nazwa_brancha`
 2. Sprawdź czy nadal znajduje się na liście branchy lokalnych.
 3. Sprawdź czy nadal znajduje się na liście branchy zdalnych.
-4. Usuń zdalny branch przy pomocy polecenia `git push url_repozytorium nazwa_brancha`
+4. Usuń zdalny branch przy pomocy polecenia `git push url_repozytorium nazwa_brancha --delete`
 5. Sprawdź efekty w zdalnym i lokalnym repozytorium.
 
 
