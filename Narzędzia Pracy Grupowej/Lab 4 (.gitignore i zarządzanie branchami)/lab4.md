@@ -27,7 +27,7 @@ Informacje o wzorcach nazw plików i folderów  do ignorowania znajdują się w 
 **Zadanie 1**
 
 1. Utworzyć plik tekstowy o nazwie **.gitignore** (plik nie może mieć rozszerzenia) w katalogu głównym naszego repozytorium to znaczy w folderze npg_imię_nazwisko
-2. Za pomocą linii poleceń dodań plik do repozytorium i zatwierdź go.
+2. Za pomocą linii poleceń dodaj plik do repozytorium i zatwierdź go.
 
 
 ### Dodawanie wzorców do .gitignore
