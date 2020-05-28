@@ -5,6 +5,7 @@ Na tym laboratorium zostaną omówione zagadnienia dotyczące:
 - tworzenia i zarządzanie branchami.
 
 Wszystkie zadania należy wykonać na repozytorium z poprzednich zajęć. Raport ma być wykonany według zasad z poprzedniego laboratorium.
+
 ## .gitignore
 
 W Git-cie każdy plik który ma dodany do kopii roboczej rozpoznaje jako:
@@ -24,6 +25,7 @@ Pliki które chcemy ignorować najczęściej są plikami które tworzą programy
 Informacje o wzorcach nazw plików i folderów  do ignorowania znajdują się w pliku .gitignore . Żeby dodać takie zestaw reguł do naszego repozytorium należy:
 
 **Zadanie 1**
+
 1. Utworzyć plik tekstowy o nazwie **.gitignore** (plik nie może mieć rozszerzenia) w katalogu głównym naszego repozytorium to znaczy w folderze npg_imię_nazwisko
 2. Za pomocą linii poleceń dodań plik do repozytorium i zatwierdź go.
 
@@ -80,6 +82,7 @@ Prawie każdy system kontroli wersji posiada wsparcie dla branchy (gałęzi). G�
 Nowy brach możemy tworzyć gdy nie chcemy by nasze zmiany wpływały na pracę reszty zespołu oraz gdy chcemy na bazie przygotowanego rozwiązania stworzyć nową/demonstracyjną/rozszerzoną wersję. Dodawanie nowego branchu odbywa się według schematu:  
 
 **Zadanie 4**
+
 1. Upewnij się, że wszystkie zmiany wprowadzone w repozytorium zostały zatwierdzone.
 2. Sprawdź jakie branche obecnie znajdują się na twoim lokalnym repozytorium używając polecenia`git branch`.
 3. Utwórz nowy branch o nazwie *npg_test* za pomocą polecenia `git branch nazwa_brancha`
@@ -95,6 +98,7 @@ Nowy brach możemy tworzyć gdy nie chcemy by nasze zmiany wpływały na pracę 
 Po utworzeniu brancha i przejściu do niego możemy zacząć w nim pracować: 
 
 **Zadanie 5**
+
 1. W branchu *npg_test* dodaj plik *merge_test.txt*, upewnij się, że jesteś we właściwym branchu.
 2. Dodaj do niego treść: 'Jestem w branchu npg_test'.
 3. Dodaj plik do repozytorium, zatwierdź zmiany i wyślij je na serwer już przy pomocy polecenia `git push`. 
@@ -105,6 +109,7 @@ Po utworzeniu brancha i przejściu do niego możemy zacząć w nim pracować:
 Po zatwierdzeniu zmian jakie chcieliśmy przeprowadzić w nowym branchu i uznaliśmy za wartościowe do wprowadzenia w wątku głównym, możemy je ze sobą połączyć. Łączenie branchy odbywa się w następujący sposób:  
 
 **Zadanie 6**
+
 1. Przy pomocy polecenia `checkout` przejdź do brancha `master`.
 2. Sprawdź czy plik *merge_test.txt* istnieje (nie powinien).
 3. Przystąpimy do połączenia (**merge**) branchy w tym celu wydaj komendę `git merge npg_test`
@@ -122,14 +127,16 @@ Jeżeli uznamy, że któryś z branchy jest nam już niepotrzebny a historia jeg
 Jeżeli jednak nasza decyzja o usunięciu została podjęta, możemy tego dokonać przy pomocy następujących czynności:
 
 **Zadanie 7**
+
 1. Usuń lokalnie branch *npg_test* za pomocą polecenia `git branch -d nazwa_brancha`
 2. Sprawdź czy nadal znajduje się na liście branchy lokalnych.
 3. Sprawdź czy nadal znajduje się na liście branchy zdalnych.
-4. Usuń zdalny branch przy pomocy polecenia `git push url_repozytorium nazwa_brancha`
+4. Usuń zdalny branch przy pomocy polecenia `git push url_repozytorium --delete nazwa_brancha`
 5. Sprawdź efekty w zdalnym i lokalnym repozytorium.
 
 
 ### Zadania uzupełniające (obowiązkowe)
+
 Dla lepszego zrozumienia i zobrazowania procesu działania repozytorium i  branchy zachęcam do  sięgnięcia do interaktywnych webowych kursów:
 - https://try.github.io/ 
 - http://git-school.github.io/visualizing-git/#free
@@ -138,5 +145,6 @@ lub kursów offline:
 - https://github.com/jlord/git-it-electron#what-to-install
 
 **Zadanie 8**
+
 Wykonaj ćwiczenia **Introduction Sequence** (4 zadania) z zakładki **Main** ze strony https://learngitbranching.js.org/
  

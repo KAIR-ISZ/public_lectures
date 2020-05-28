@@ -11,7 +11,12 @@ During Covid-19 pandemic lectures are being presented on Youtube
 1. [One parameter models in Stan - part 2](https://youtu.be/fwpALbNSyDE)
 2. [Data Analytics - Multiparameter models - part 1](https://youtu.be/fZwWnSqhubo)
 2. [Data Analytics - Multiparameter models - part 2](https://youtu.be/pBqHb95Ajok)
+2. [Data Analytics - Multiparameter models - part 3](https://youtu.be/R8p4oFZHHeM)
+2. [Data Analytics - Multiparameter models - part 4](https://youtu.be/Giw-R1dRyek)
 
+Questions regarding lectures are also on YouTube
+
+1. [Q&A episode 1](https://youtu.be/2beg3As7RBk)
 
 ## Laboratory class requirements
 
