@@ -66,6 +66,7 @@ print(repr(table))
 print(table.columns.keys())
 ``` 
 In this sript *table_name* is the string with table name in database.
+
 ## SQLAlchemy query
 
 The basic select in SQLAlchemy has form:
