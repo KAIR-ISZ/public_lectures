@@ -60,7 +60,9 @@ Informacje o wzorcach nazw plików i folderów  do ignorowania znajdują się w 
 4. Zatwierdź zmiany i wyślij je na serwer
 5. Dokonaj edycji pliku txt który został dodany w punkcie 1. 
 6. Za pomocą komendy `git status` sprawdź czy zmiany są widoczne w repozytorium.
-7. Usuń plik txt z repozytorium przy pomocy polecenia `git rm nazwa_pliku`
+7. Alternatywnie:
+  - wariant A: zatwierdź zmiany `git commit`, a następnie usuń plik txt z repozytorium przy pomocy polecenia `git rm nazwa_pliku`
+  - wariant B: bez zatwierdzania zmian usuń plik txt z rejestru GITa przy pomocy polecenia `git rm nazwa_pliku --cached` (lub z flagą `-f`, by usunąć plik z dysku)
 8. Zatwierdź operację i zmiany wyślij na serwer.
 
 ### Ignorowanie plików i folderów o zadanym wzorcu
