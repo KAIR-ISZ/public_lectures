@@ -62,10 +62,10 @@ Oczywiście wszystkie te polecenia można łączyć, np.:
 
 **Zadanie 2**
 1. Wyświetl ostatnie dwa wpisy w repozytorium.
-2. Wyświetl wszystkie logi z maja 2020 roku.
+2. Wyświetl wszystkie logi z maja 2021 roku.
 3. Wyświetl zatwierdzenia zmieniając tekst: 'Jestem w'.
 
-Po za możliwością wyszukiwani istnieje również opcja formatowania wyjścia, przy pomocy komend:
+Poza możliwością wyszukiwani istnieje również opcja formatowania wyjścia, przy pomocy komend:
 
 | Opcja       	| Opis                                                                  	|
 |-------------	|-----------------------------------------------------------------------	|
@@ -136,10 +136,10 @@ Często zdarza się, że dokonaliśmy zmian w projekcie które chcielibyśmy cof
 
 W przypadku plików jeżeli dokonaliśmy zmian i chcemy je cofnąć tylko w tym pliku możemy posłużyć się poleceniem:
 ```git checkout -- nazwa_pliku numer_rewizji```
-należy pamiętać, że dokonane w ten sposób zmiany są nie odwracalne.
+należy pamiętać, że dokonane w ten sposób zmiany są nieodwracalne.
 Jeżeli chcemy cofnąć wszystkie zmiany wprowadzone w repozytorium należy użyć komendy:
 ```git reset --hard numer_rewizji```
-W tym przypadku również zmiany są nie odwracalne.
+W tym przypadku również zmiany są nieodwracalne.
 
 Natomiast jeżeli chcemy dodać plik do wykonanego zatwierdzenia należy wykonać następujące polecenia:
 ```
