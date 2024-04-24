@@ -60,7 +60,7 @@ Informacje o wzorcach nazw plików i folderów  do ignorowania znajdują się w 
 4. Zatwierdź zmiany i wyślij je na serwer
 5. Dokonaj edycji pliku txt który został dodany w punkcie 1. 
 6. Za pomocą komendy `git status` sprawdź czy zmiany są widoczne w repozytorium.
-7. Usuń plik txt z repozytorium przy pomocy polecenia `git rm nazwa_pliku`
+7. Usuń plik txt z repozytorium przy pomocy polecenia `git rm nazwa_pliku` (usuwa plik również lokalnie) lub `git rm --cashed nazwa_pliku` (plik usunięty tylko z repozytorium)
 8. Zatwierdź operację i zmiany wyślij na serwer.
 
 ### Ignorowanie plików i folderów o zadanym wzorcu
@@ -131,7 +131,7 @@ Jeżeli jednak nasza decyzja o usunięciu została podjęta, możemy tego dokona
 1. Usuń lokalnie branch *npg_test* za pomocą polecenia `git branch -d nazwa_brancha`
 2. Sprawdź czy nadal znajduje się na liście branchy lokalnych.
 3. Sprawdź czy nadal znajduje się na liście branchy zdalnych.
-4. Usuń zdalny branch przy pomocy polecenia `git push url_repozytorium --delete nazwa_brancha`
+4. Usuń zdalny branch przy pomocy polecenia `git push -u origin --delete nazwa_brancha`
 5. Sprawdź efekty w zdalnym i lokalnym repozytorium.
 
 
