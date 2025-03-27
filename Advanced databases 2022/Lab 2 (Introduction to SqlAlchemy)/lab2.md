@@ -67,7 +67,7 @@ print(inspect(db).get_table_names())
 
 metadata = MetaData()
 
-table = Table('actor', metadata , autoload=True, autoload_with=db)
+table = Table('actor', metadata , autoload_with=db)
 
 print(repr(table))
 
