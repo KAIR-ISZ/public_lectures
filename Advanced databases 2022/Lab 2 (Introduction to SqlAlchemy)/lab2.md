@@ -157,7 +157,7 @@ for result in results:
 ## Exercises:
 Write script to conection to databases and perform the following tasks: 
 
-For PostgreSql database structure are describe [here](https://www.postgresqltutorial.com/postgresql-sample-database/):
+For PostgreSql database structure are describe [here]([https://www.postgresqltutorial.com/postgresql-sample-database/](https://neon.tech/postgresql/postgresql-getting-started/postgresql-sample-database)):
 1. Create a script to connection with database.
 1. Based on *information_schema*, present how to explore the relationships between the tables:
 	1. staff and country
