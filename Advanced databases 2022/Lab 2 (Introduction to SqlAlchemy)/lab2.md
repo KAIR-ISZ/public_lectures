@@ -107,15 +107,13 @@ print(results)
 Function *execute* make a request to a database and *fetchall* method get our results from an executed query. But in this case we don't use ORM propertis. More correctly is use structur:
 
 ```python
-from sqlalchemy import select
-
-stmt = select([table])
+stmt = table.select()
 
 # Print the SQL query string
 print(stmt)
 
 # Execute the statement and fetch with limit the results 
-results = db.execute(stmt).fetchmany(size=10)
+results = con.execute(stmt).fetchmany(size=10)
 print(results)
 ```
 In this case, the ORM system creates a query based on information in object *table*.
