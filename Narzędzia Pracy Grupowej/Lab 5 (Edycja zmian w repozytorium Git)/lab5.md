@@ -135,7 +135,7 @@ i konkretnych plików wewnątrz nich:
 Często zdarza się, że dokonaliśmy zmian w projekcie które chcielibyśmy cofnąć. Git umożliwia nam to na kilku płaszczyznach: plików, rewizji oraz poczekalni.
 
 W przypadku plików jeżeli dokonaliśmy zmian i chcemy je cofnąć tylko w tym pliku możemy posłużyć się poleceniem:
-```git checkout -- nazwa_pliku numer_rewizji```
+```git checkout numer_rewizji nazwa_pliku```
 należy pamiętać, że dokonane w ten sposób zmiany są nie odwracalne.
 Jeżeli chcemy cofnąć wszystkie zmiany wprowadzone w repozytorium należy użyć komendy:
 ```git reset --hard numer_rewizji```
