@@ -102,15 +102,15 @@ Szczegółowe informacje na temat struktury projektu w Trello znajdziesz [tutaj]
 
 W Trello założenie zespołu można dokonać wykonując następujące czynności:
 
-1. [Kliknij znak dodawania](https://help.trello.com/article/705-creating-a-new-team) **+** w nagłówku Trello po lewej stronie Twojej nazwy użytkownika.
-1. Wybierz „Osobisty zespół”
+1. [Kliknij ikonę swojego profilu](https://help.trello.com/article/705-creating-a-new-team) w nagłówku Trello po prawej stronie.
+1. Wybierz „Utwórz przestrzeń roboczą”
 1. Ustaw nazwę zespołu i potwierdź jej utworzenie przyciskiem  **Utwórz**
 
 Po utworzeniu zespołu należy [zaprosić](https://help.trello.com/article/715-inviting-people-to-an-organization) członków zespołu. Dodawanie członków do zespołu jest możliwe poprzez:
 1. Przejście do strony głównej [Trello](https://trello.com/) 
 1. Wybierz zespół do którego chcesz zaprosić członka.
 1. Wybierz zakładkę **Członkowie**.
-1. Kliknij przycisk **Zaproś członków zespołu** na lewym pasku bocznym i wprowadź adres e-mail lub nazwę użytkownika Trello osoby, którą chcesz dodać do swojego zespołu.
+1. Kliknij przycisk **Zaproś członków przestrzeni roboczej** po prawej steonie i wprowadź adres e-mail lub nazwę użytkownika Trello osoby, którą chcesz dodać do swojego zespołu.
 
 #### Zakładanie nowego projektu (tablicy)
 [Nową tablicę](https://help.trello.com/article/719-adding-your-first-board) tworzymy wybierając **+** w nagłówku i wybierając zakładkę **Utwórz tablicę…**. Następnie nadajemy nazwę tablicy, zespół do którego należy i tło, swoje wybory potwierdzamy przyciskiem "Utwórz tablicę".
